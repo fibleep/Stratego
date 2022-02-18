@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    height:100%;
+    width:100%;
+
+}
+html,body{
+    margin:0;
+    background-image: url('ardennes.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    
+}
+header{
+    position:sticky;
+    top:0;
+    flex:100%;
+    width:100%;
+    height:125px;
+    flex-flow: column wrap;
+    display:flex;
+}
+#logo{
+padding-left:5px;
+flex:50%;
+}
+#navbar{
+    flex:50%;
+    margin:auto;
+    position:relative;
+    top:25%;
+    color:#66fcf1;
+    font-weight: bold;
+}
+#navbar>ul{
+list-style: none;
+}
+#navbar>ul>li{
+    display:inline-block;
+    padding-left:10px;
+    position:relative;
+}
+#navbar>ul>li:hover{
+    color:#45a29e;
+}
+#logo>img{
+    height:150px;
+    width:275px;
+}
+#content-container{
+    position:relative;
+    height:900px;
+    margin:auto;
+    margin: 20px;
+    flex:100%;
+    
+}
