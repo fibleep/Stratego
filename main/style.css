@@ -133,6 +133,7 @@ b{
 }
 b:hover{
   color:#66fcf1;  
+  cursor:pointer;
 }
 #cards{
     float:right;
